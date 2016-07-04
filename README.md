@@ -15,9 +15,13 @@ Next, confirm that you have collaboration permissions for the systematic_investm
 In the command prompt, navigate to the directory where you would like to store the downloaded files (the cd, ls and mkdir commands will be useful for this.) Then, execute the following:
 
 git clone https://github.com/david-adelberg/YSIG.git
+
 git clone https://github.com/david-adelberg/systematic_investment.git
+
 git clone https://github.com/david-adelberg/systematic_analyses.git
+
 cd systematic_investment
+
 python setup.py install
 
 This code will download the files in the YSIG, systematic_investment and systematic_analyses repositories. YSIG contains general YSIG documents. The systematic_investment repository contains a package to accelerate the development of systematic investment models. systematic_analyses contains the models we are working on.
