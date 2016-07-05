@@ -22,7 +22,7 @@ git clone https://github.com/david-adelberg/systematic_analyses.git
 
 cd systematic_investment
 
-python setup.py install
+python setup.py develop
 
 This code will download the files in the YSIG, systematic_investment and systematic_analyses repositories. YSIG contains general YSIG documents. The systematic_investment repository contains a package to accelerate the development of systematic investment models. systematic_analyses contains the models we are working on.
 
