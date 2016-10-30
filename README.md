@@ -12,6 +12,12 @@ Once you create an account, type "git --version into the command prompt. If you 
 
 Next, confirm that you have collaboration permissions for the systematic_investment and systematic_analyses repositories. If you have not received an email invite, send an email to david.adelberg@yale.edu requesting an invitation.
 
+You'll have to setup git large file storage. Execute the following:
+
+brew install git-lfs
+
+git lfs install
+
 In the command prompt, navigate to the directory where you would like to store the downloaded files (the cd, ls and mkdir commands will be useful for this.) Then, execute the following:
 
 git clone https://github.com/david-adelberg/YSIG.git
