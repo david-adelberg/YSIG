@@ -6,6 +6,10 @@
 
 Open Terminal and type "python --version" into the command prompt. Your python version should be 3.0 or greater for compatibility with our code. Otherwise, you need to download a more recent version of python. I recommend that you install the Anaconda python distribution, which can be found at https://www.continuum.io/downloads.
 
+Make sure that you have developer tools installed. You can install by running the following line:
+
+xcode-select --install
+
 If you do not already have a github account, create one at www.github.com.
 
 Once you create an account, type "git --version into the command prompt. If you do not have git installed, go to https://git-scm.com/downloads and download git.
